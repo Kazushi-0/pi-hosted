@@ -35,7 +35,7 @@
 					"container": "/portainer/Files/AppData/Config/twitch-miner/analytics"
 				}
 			],
-			"note": "<b>Template created by Kazushi</b><br><b>Credits to rdavidoff: <a href=\"https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2\" target=\"_blank\">https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2</a></b><br><br><b>Official Docker Hub: </b><a href=\"https://hub.docker.com/r/rdavidoff/twitch-channel-points-miner-v2" target=\"_blank\">https://hub.docker.com/r/rdavidoff/twitch-channel-points-miner-v2</a><br><br><br>"
+			"note": "<b>Template created by Kazushi</b><br><b>Credits to rdavidoff: <a href=\"https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2\" target=\"_blank\">https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2</a>"
 		},
 		{
 			"categories": [
