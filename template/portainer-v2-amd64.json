@@ -6,6 +6,42 @@
 				"Other",
 				"Tools"
 			],
+			"description": "A simple script that will watch a stream for you and earn the channel points..",
+			"image": "rdavidoff/twitch-channel-points-miner-v2:latest",
+			"logo": "https://developer.asustor.com/uploadIcons/0020_999_1595573028_AdGuardhome_256.png",
+			"name": "Twitch-Miner",
+			"platform": "linux",
+			"ports": [
+				"5000:5000/tcp"
+			],
+			"restart_policy": "unless-stopped",
+			"title": "Twitch-Miner",
+			"type": 1,
+			"volumes": [
+				{
+					"bind": "/portainer/Files/AppData/Config/twitch-miner/cookies",
+					"container": "/usr/src/app/cookies"
+				},
+				{
+					"bind": "/portainer/Files/AppData/Config/twitch-miner/logs",
+					"container": "/usr/src/app/logs"
+				},
+				{
+					"bind": "/portainer/Files/AppData/Config/twitch-miner/run.py",
+					"container": "/usr/src/app/run.py"
+				},
+				{
+					"bind": "/portainer/Files/AppData/Config/twitch-miner/analytics",
+					"container": "/usr/src/app/analytics"
+				}
+			],
+			"note": "<b>Template created by Kazushi</b><br><b>Credits to rdavidoff: <a href=\"https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2\" target=\"_blank\">https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2</a>"
+		},
+		{
+			"categories": [
+				"Other",
+				"Tools"
+			],
 			"description": "AdGuard Home is a network-wide software for blocking ads & tracking.",
 			"image": "adguard/adguardhome:latest",
 			"logo": "https://developer.asustor.com/uploadIcons/0020_999_1595573028_AdGuardhome_256.png",
