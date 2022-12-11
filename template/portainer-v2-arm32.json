@@ -8,7 +8,7 @@
 			],
 			"description": "A simple script that will watch a stream for you and earn the channel points..",
 			"image": "rdavidoff/twitch-channel-points-miner-v2:latest",
-			"logo": "https://i.imgur.com/X9fEkhT.png",
+			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/twitch-miner.png",
 			"name": "Twitch-Miner",
 			"platform": "linux",
 			"ports": [
