@@ -19,20 +19,20 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/usr/src/app/cookies",
-					"container": "/portainer/Files/AppData/Config/twitch-miner/cookies"
+					"bind": "/portainer/Files/AppData/Config/twitch-miner/cookies",
+					"container": "/usr/src/app/cookies"
 				},
 				{
-					"bind": "/usr/src/app/logs",
-					"container": "/portainer/Files/AppData/Config/twitch-miner/logs"
+					"bind": "/portainer/Files/AppData/Config/twitch-miner/logs",
+					"container": "/usr/src/app/logs"
 				},
 				{
-					"bind": "/usr/src/app/run.py",
-					"container": "/portainer/Files/AppData/Config/twitch-miner/run.py"
+					"bind": "/portainer/Files/AppData/Config/twitch-miner/run.py",
+					"container": "/usr/src/app/run.py"
 				},
 				{
-					"bind": "/usr/src/app/analytics",
-					"container": "/portainer/Files/AppData/Config/twitch-miner/analytics"
+					"bind": "/portainer/Files/AppData/Config/twitch-miner/analytics",
+					"container": "/usr/src/app/analytics"
 				}
 			],
 			"note": "<b>Template created by Kazushi</b><br><b>Credits to rdavidoff: <a href=\"https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2\" target=\"_blank\">https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2</a>"
