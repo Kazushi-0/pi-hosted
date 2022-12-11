@@ -6,6 +6,42 @@
 				"Other",
 				"Tools"
 			],
+			"description": "A simple script that will watch a stream for you and earn the channel points..",
+			"image": "rdavidoff/twitch-channel-points-miner-v2:latest",
+			"logo": "https://developer.asustor.com/uploadIcons/0020_999_1595573028_AdGuardhome_256.png",
+			"name": "Twitch-Miner",
+			"platform": "linux",
+			"ports": [
+				"5000:5000/tcp",
+			],
+			"restart_policy": "unless-stopped",
+			"title": "Twitch-Miner",
+			"type": 1,
+			"volumes": [
+				{
+					"bind": "/usr/src/app/cookies",
+					"container": "/portainer/Files/AppData/Config/twitch-miner/cookies"
+				},
+				{
+					"bind": "/usr/src/app/logs",
+					"container": "/portainer/Files/AppData/Config/twitch-miner/logs"
+				},
+				{
+					"bind": "/usr/src/app/run.py",
+					"container": "/portainer/Files/AppData/Config/twitch-miner/run.py"
+				},
+				{
+					"bind": "/usr/src/app/analytics",
+					"container": "/portainer/Files/AppData/Config/twitch-miner/analytics"
+				}
+			],
+			"note": "<b>Template created by Kazushi</b><br><b>Credits to rdavidoff: <a href=\"https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2\" target=\"_blank\">https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2</a></b><br><br><b>Official Docker Hub: </b><a href=\"https://hub.docker.com/r/rdavidoff/twitch-channel-points-miner-v2" target=\"_blank\">https://hub.docker.com/r/rdavidoff/twitch-channel-points-miner-v2</a><br><br><br>"
+		},
+		{
+			"categories": [
+				"Other",
+				"Tools"
+			],
 			"description": "AdGuard Home is a network-wide software for blocking ads & tracking.",
 			"image": "adguard/adguardhome:latest",
 			"logo": "https://developer.asustor.com/uploadIcons/0020_999_1595573028_AdGuardhome_256.png",
