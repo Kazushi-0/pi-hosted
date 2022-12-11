@@ -12,7 +12,7 @@
 			"name": "Twitch-Miner",
 			"platform": "linux",
 			"ports": [
-				"5000:5000/tcp",
+				"5000:5000/tcp"
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Twitch-Miner",
